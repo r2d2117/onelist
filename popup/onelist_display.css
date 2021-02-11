@@ -1,0 +1,56 @@
+html{
+	overflow:hidden;
+}	
+#popup-content{
+	display:inline-block;
+	width: 16rem;
+	margin: 0.5rem;
+	font-family: Verlag;
+}
+
+.upnext{
+	width: 94%;
+	margin: 1rem auto;
+	overflow: auto;
+}
+.upnext tr{
+	margin: 0.8rem 0;
+}
+.upnext th{
+	border-bottom: solid 1px grey;
+	text-align: left;
+	font-size: 1.5rem;
+	font-family: Verlag;
+}
+.upnext td{
+	border-bottom: solid 1px grey;
+}
+.row{
+	display:flex;
+	flex-direction: horizontal;
+}
+.button{
+	background-color: #BF0000;
+	margin: 2.0% auto;
+	border: solid 1px black;
+	border-radius: 4px;
+	text-align: center;
+	cursor: pointer;
+	color: white;
+	display: inline-block;
+	padding: 0.5rem 0;
+	max-width: 4rem;
+	min-width: 4rem;
+
+}
+
+.button:hover {
+	background-color: #800000; 
+}
+
+.button:active {
+	background-color: #800000;
+	box-shadow: 0 5px #666;
+	transform: translateY(2px);
+}
+

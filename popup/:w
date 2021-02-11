@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+	"name": "Onelist",
+	"version": "1.0",
+	"description": "Automate playlists that contain songs from any site",
+	"icons":{
+		"48": "icons/onelist-48.png"
+	},
+	
+	"permissions": [
+		"activeTab",
+		"webRequest",
+		"webNavigation"
+	],
+
+	"browser_action": {
+		"default_icon": "icons/onelist-32.png",
+		"default_title": "Onelist",
+		"default_popup": "popup/onelist_display.html"
+	}
+
+}
